@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply min-h-screen bg-gradient-to-tr from-gray-900 to-gray-950 text-gray-50;
+  }
+}
+
+@layer components {
+  .text-input {
+    @apply relative mb-4 bg-gray-900;
+  }
+
+  .text-input label {
+    @apply absolute px-2 text-xs -top-3 left-2 bg-inherit;
+  }
+
+  .text-input input[type='text'],
+  .text-input input[type='password'],
+  .text-input input[type='email'],
+  .text-input input[type='tel']
+  {
+    @apply w-full px-4 py-2 text-sm border border-gray-100 rounded-lg outline-none bg-inherit;
+  }
+
+  .btn {
+    @apply block w-full px-4 py-2 text-sm rounded-lg;
+  }
+}
