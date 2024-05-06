@@ -19,10 +19,17 @@ And open [http://localhost:5173](http://localhost:5173) in your browser. The API
 <br/>
 ### Some notes
 This project project is still in early development! There is a lot of goals that we need to achieve, some of them are:
-    - [ ] Finish the `app_v1` UI.
-    - [ ] Create the actual SDK.
-    - [ ] Create `React` integration.
-    - [ ] Create `Svelte` integration.
-    - [ ] Find a way to simplified development process (Maybe turning this project in Monorepo).
-    - [ ] Updating authentication method.
-    - [ ] Create the actual backup functionality.
+
+[ ] Finish the `app_v1` UI.
+
+[ ] Create the actual SDK.
+
+[ ] Create `React` integration.
+
+[ ] Create `Svelte` integration.
+
+[ ] Find a way to simplified development process (Maybe turning this project in Monorepo).
+
+[ ] Updating authentication method.
+
+[ ] Create the actual backup functionality.
